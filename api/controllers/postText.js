@@ -24,7 +24,7 @@ const postText = async (req, res = response) => {
     .join("")
     .replace(/\W/g, "");
 
-  const palindrome = normalText === compareText ? "Palindrome" : 'Not Palindrome';
+  const palindrome = normalText === compareText ? "Palindrome" : null;
 
   return res.status(200).json({
     reverseText,
