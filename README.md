@@ -16,6 +16,6 @@ cd/api 'npm run test'
 </p>
 
 <p align='center'>
-      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1658963837/CW/CW-challenge_qschiq.png/>
+      <img align="center" src="https://res.cloudinary.com/dwtkwakbc/image/upload/v1658963837/CW/CW-challenge_qschiq.png"/>
 </p>
 
