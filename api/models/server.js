@@ -7,7 +7,7 @@ const cors = require('cors');
 class Server{
     constructor(){
         this.app = express();
-        this.port = 8000;
+        this.port = process.env.PORT || 8000;
         this.path = {
             iecho : '/iecho'
         }
@@ -28,7 +28,7 @@ class Server{
 
     listen(){
         this.app.listen(this.port, ()=> {
-            console.log('Server Working at port ', this.port)
+            console.log('Server Working at port ', process.env.PORT)
         });
     }
 }
