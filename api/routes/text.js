@@ -7,7 +7,7 @@ const postText = require('../controllers/postText');
 const router = Router();
 
 
-router.post('/',check('text', 'Text is required').not().isEmpty(), postText);
+router.get('/',check('text', 'Text is required').not().isEmpty(), postText);
 
 
 module.exports = router;

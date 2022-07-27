@@ -1,7 +1,7 @@
 const { response } = require("express");
 
 const postText = async (req, res = response) => {
-  const { text } = req.body;
+  const { text } = req.query;
 
   if (!text) {
     return res.status(400).json({ msg: `Error please add some text` });

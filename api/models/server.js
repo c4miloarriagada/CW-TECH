@@ -9,7 +9,7 @@ class Server{
         this.app = express();
         this.port = 8000;
         this.path = {
-            text : '/text'
+            iecho : '/iecho'
         }
 
         this.middlewares();
@@ -23,7 +23,7 @@ class Server{
     }
 
     routes(){
-        this.app.use(this.path.text, require('../routes/text'));
+        this.app.use(this.path.iecho, require('../routes/text'));
     }
 
     listen(){
