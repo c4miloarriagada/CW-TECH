@@ -6,6 +6,7 @@ import { postText } from "../../redux/actions/actions";
 import { Form, Button, Container, Alert, Badge } from "react-bootstrap";
 import "./Home.css";
 
+
 export const Home = () => {
   const dispatch = useDispatch();
   const text = useSelector((state) => state.text);
@@ -16,6 +17,7 @@ export const Home = () => {
       [e.target.name]: e.target.value,
     });
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -47,7 +49,7 @@ export const Home = () => {
           ) : null}
           <br />
           {text.palindrome != null ? (
-            <Badge variant="info">Palindrome</Badge>
+            <Badge variant="info">{text.palindrome}</Badge>
           ) : null}
           <br />
           <Button className="mt-3" type="submit" variant="success">

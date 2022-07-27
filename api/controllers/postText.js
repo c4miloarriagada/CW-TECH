@@ -11,8 +11,8 @@ const postText = async (req, res = response) => {
 
   const normalText = text
     .normalize("NFD")
+    .toLowerCase()
     .split("")
-    .map((e) => e.toLowerCase())
     .join("")
     .replace(/\W/g, "");
 
