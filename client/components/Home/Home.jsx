@@ -62,7 +62,7 @@ export const Home = () => {
             </Alert>
           ))}
         </Form>
-      </Container>
+      </Container> 
     </div>
   );
 };
