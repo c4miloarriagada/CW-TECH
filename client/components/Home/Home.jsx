@@ -57,8 +57,8 @@ export const Home = () => {
             </Alert>
           ) : null}
           {textHistory?.map((e) => (
-            <Alert className="mt-3" variant="dark">
-              {e.reverseText} <Badge class="float-right">{e.palindrome}</Badge>
+            <Alert key={i + 1} className="mt-3" variant="dark">
+              {e.reverseText} <Badge>{e.palindrome}</Badge>
             </Alert>
           ))}
         </Form>
