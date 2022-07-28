@@ -56,7 +56,7 @@ export const Home = () => {
               {text.response.data.msg}{" "}
             </Alert>
           ) : null}
-          {textHistory?.map((e) => (
+          {textHistory?.map((e,i) => (
             <Alert key={i + 1} className="mt-3" variant="dark">
               {e.reverseText} <Badge>{e.palindrome}</Badge>
             </Alert>
