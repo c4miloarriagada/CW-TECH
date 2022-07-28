@@ -20,7 +20,7 @@ export const Home = () => {
     dispatch(postText(input));
     setInput('')
   };
-  console.log(textHistory.reverseText)
+  
   return (
     <div className="background">
       <h1 className="text-center display-2 ">
