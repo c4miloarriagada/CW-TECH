@@ -3,10 +3,10 @@ Code Challenge CW
 
 ```
 Hi! for start:
-0- $ git checkout dev
-1- $ npm or yarn install
-2- $ cd/api 'nodemon app' 
-3- $ cd/client 'npm run dev'
+
+0- $ npm or yarn install
+1- $ cd/api 'nodemon app' 
+2- $ cd/client 'npm run dev'
 
 Test
 $ cd/api 'npm test'
