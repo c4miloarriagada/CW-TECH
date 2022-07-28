@@ -11,3 +11,4 @@ export const postText = (data) => {
       .catch((err) => dispatch({ type: POST_TEXT, payload: err }));
   };
 };
+ 
