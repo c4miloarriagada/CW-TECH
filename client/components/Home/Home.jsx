@@ -20,7 +20,7 @@ export const Home = () => {
     dispatch(postText(input));
     setInput('')
   };
-
+  console.log(textHistory.reverseText)
   return (
     <div className="background">
       <h1 className="text-center display-2 ">
@@ -57,10 +57,11 @@ export const Home = () => {
             </Alert>
           ) : null}
           {textHistory?.map((e,i) => (
+            (e.reverseText === undefined ? null : 
             <Alert key={i + 1} className="mt-3" variant="dark">
               {e.reverseText} <Badge>{e.palindrome}</Badge>
             </Alert>
-          ))}
+          )))}
         </Form>
       </Container> 
     </div>
