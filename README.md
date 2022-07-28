@@ -9,7 +9,7 @@ Hi! for start:
 3- $ cd/client 'npm run dev'
 
 Test
-$ cd/api 'npm run test'
+$ cd/api 'npm test'
 
 ```
 <p align='center'>
