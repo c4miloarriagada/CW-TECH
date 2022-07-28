@@ -3,12 +3,13 @@ Code Challenge CW
 
 ```
 Hi! for start:
-1- npm or yarn install
-2- cd/api 'nodemon app' 
-3- cd/client 'npm run dev'
+0- $ git checkout dev
+1- $ npm or yarn install
+2- $ cd/api 'nodemon app' 
+3- $ cd/client 'npm run dev'
 
 Test
-cd/api 'npm run test'
+$ cd/api 'npm test'
 
 ```
 <p align='center'>
